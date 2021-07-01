@@ -50,7 +50,7 @@ var LaserCat = function() {
     function loadBuffer(url, name, callback){
       var request = new XMLHttpRequest();
 
-      request.open('GET', `https://laser-cat.pages.dev/${url}`, true);
+      request.open('GET', `https://5079.ml/laser-cat/${url}`, true);
       request.responseType = 'arraybuffer';
 
       request.onload = function() {
@@ -276,10 +276,10 @@ LaserCat.prototype.makeStuff = function() {
   });
 
   this.cat = document.createElement("img");
-  this.cat.src = ("https://laser-cat.pages.dev/images/cat-body.png");
+  this.cat.src = ("https://5079.ml/laser-cat/images/cat-body.png");
 
   this.catHead = document.createElement("img");
-  this.catHead.src = ("https://laser-cat.pages.dev/images/cat-head.png");
+  this.catHead.src = ("https://5079.ml/laser-cat/images/cat-head.png");
 
 
  	this.active = true;
