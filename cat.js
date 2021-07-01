@@ -7,20 +7,20 @@ var LaserCat = function() {
 
     var sounds = {
       "meow" : {
-        "path" : "sounds/meow.mp3",
+        "path" : "meow.mp3",
         "loop" : false,
         "loopTime" : [0.1, 1.1],
         "pitchSpread" : [0.85, 1.1],
         "loaded" : false
       },
       "laserHit" : {
-        "path" : "sounds/laser-start.mp3",
+        "path" : "laser-start.mp3",
         "loop" : false,
         "pitchSpread" : [0.85, 1.1],
         "loaded" : false
       },
       "laserBeam" : {
-        "path" : "sounds/laser-loop.mp3",
+        "path" : "laser-loop.mp3",
         "loop" : true,
         "loopTime" : [0.2, 1.6],
         "loaded" : false
@@ -276,10 +276,10 @@ LaserCat.prototype.makeStuff = function() {
   });
 
   this.cat = document.createElement("img");
-  this.cat.src = ("https://5079.ml/laser-cat/images/cat-body.png");
+  this.cat.src = ("https://5079.ml/laser-cat/cat-body.png");
 
   this.catHead = document.createElement("img");
-  this.catHead.src = ("https://5079.ml/laser-cat/images/cat-head.png");
+  this.catHead.src = ("https://5079.ml/laser-cat/cat-head.png");
 
 
  	this.active = true;
